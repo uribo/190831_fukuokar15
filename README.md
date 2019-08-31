@@ -183,5 +183,12 @@ sessioninfo::session_info()
 ## 参考文献・URL
 
 - Max Kuhn and Kjell Johnson (2019). [Feature Engineering and Selection: A Practical Approach for Predictive Models (CRC Press)](https://www.crcpress.com/Feature-Engineering-and-Selection-A-Practical-Approach-for-Predictive-Models/Kuhn-Johnson/p/book/9781138079229)
+- [データ分析における特徴量エンジニアリング / feature engineering recipes](https://speakerdeck.com/s_uryu/feature-engineering-recipes)
+- [実践的データサイエンス](https://uribo.github.io/practical-ds/intro)
+- [dpp-cookbook | Baked your data :)[https://uribo.github.io/dpp-cookbook/]
 - [A Gentle Introduction to tidymodels · R Views](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/)
 - [Caret and Tidymodels | Ryan Johnson](https://ryjohnson09.netlify.com/post/caret-and-tidymodels/)
+- [tidymodelsによるtidyな機械学習フロー（その1） - Dropout](https://dropout009.hatenablog.com/entry/2019/01/06/124932)
+- [tidymodelsによるtidyな機械学習フロー（その2：Cross Varidation） - Dropout](https://dropout009.hatenablog.com/entry/2019/01/09/214233)
+- [Rでのナウなデータ分割のやり方: rsampleパッケージによる交差検証 - 株式会社ホクソエムのブログ](https://blog.hoxo-m.com/entry/2019/06/08/220307)
+- [モデルで扱うデータの前処理をrecipesで行う - 株式会社ホクソエムのブログ](https://blog.hoxo-m.com/entry/2018/08/26/161144)
