@@ -3,6 +3,7 @@
 ##################################
 library(tidymodels)
 library(drake)
+library(ranger)
 
 data(iris)
 iris <- as_tibble(iris)
@@ -41,8 +42,8 @@ plan_iris_classification <-
       iris_ranger %>%
       predict(iris_testing, type = "prob") %>%
       bind_cols(iris_testing))
-make(plan_iris_classification)
-loadd(plan_iris_classification, list = plan_iris_classification$target)
+drake::make(plan_iris_classification)
+drake::loadd(list = plan_iris_classification$target)
 
 
 iris_ranger %>%
