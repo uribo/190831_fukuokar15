@@ -1,3 +1,4 @@
+source("renv/activate.R")
 options(
 reprex.highlight.hl_style  = "base16/github",
 reprex.highlight.font      = "Fira Code",
